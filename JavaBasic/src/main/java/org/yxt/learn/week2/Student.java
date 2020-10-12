@@ -2,6 +2,7 @@ package org.yxt.learn.week2;
 
 
 import lombok.AllArgsConstructor;
+import lombok.ToString;
 
 /**
  * @ClassName Student
@@ -10,6 +11,7 @@ import lombok.AllArgsConstructor;
  * @Date 2020/10/12
  **/
 @AllArgsConstructor
+@ToString
 public class Student {
     private String id;
     private String studentName;

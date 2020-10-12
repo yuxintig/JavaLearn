@@ -3,6 +3,7 @@ package org.yxt.learn.week2;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 /**
  * @ClassName Phone
@@ -13,8 +14,10 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
+@ToString
+
 public class Phone {
-        private String brand;
-        private String model;
-        private String number;
+    private String brand;
+    private String model;
+    private String number;
 }

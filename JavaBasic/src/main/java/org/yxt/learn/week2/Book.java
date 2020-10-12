@@ -1,10 +1,7 @@
 package org.yxt.learn.week2;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import lombok.experimental.Accessors;
 
 import java.util.Date;
@@ -20,6 +17,7 @@ import java.util.Date;
 @AllArgsConstructor
 @Accessors(chain = true)
 @EqualsAndHashCode()
+@ToString
 public class Book {
     private String name;
     private String author;
