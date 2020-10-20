@@ -31,7 +31,9 @@ public class OverLoadTest {
         int seconds = sumSecond - days * 24 * 60 * 60 - hours * 60 * 60 - minutes * 60;
         if (seconds != 0) {
             sb.append(seconds).append("秒");
-        return sb.toString();
+            return sb.toString();
+        }
+        return "";
     }
 
 
